@@ -73,7 +73,7 @@ export const siteConfig = {
       degree: "Bachelor of Creative Media and Game Technologies",
       dateRange: "2019 - 2025",
       achievements: [
-        "Year 2 GOTY <a href='https://buas.itch.io/vana'>Link</a>)"
+        "Year 2 GOTY (https://buas.itch.io/vana)"
       ],
     },
     {
