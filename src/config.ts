@@ -4,7 +4,7 @@ export const siteConfig = {
   description: "Portfolio website of Cas Trines",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
+    email: "cas.trines1998@gmail.com",
     linkedin: "https://www.linkedin.com/in/cas-trines-a00888156/",
     twitter: "https://x.com/CasTrines",
     github: "https://github.com/CasTrines",
@@ -37,33 +37,13 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Verdant Games",
+      title: "DevOps/Infrastructure/Tools Engineer Intern",
+      dateRange: "Sep 2024 - Jun 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Set up all of the CI/CD pipelines",
+        "Created custom tools for speeding up development and analytics",
+        "Switched project to use Unreal Engine from Source, made many adjustedments to source code",
       ],
     },
   ],
