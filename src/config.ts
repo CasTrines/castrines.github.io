@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Cas Trines",
-  title: "Junior DevOps Engineer",
+  title: "DevOps/Infrastructure Engineer",
   description: "Portfolio website of Cas Trines",
   accentColor: "#1d4ed8",
   social: {
@@ -10,8 +10,8 @@ export const siteConfig = {
     github: "https://github.com/CasTrines",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a 26 year old alumni from Breda University of Applied Science, highly focussed on all things DevOps, company infrastructure, pipelines and always eager to help others work more efficiently and provide assistance and toolsets where needed. I have a strong affinity for identifying and solving bottlenecks and coming up with ideas on how to increase efficiency and help others work better. Below you'll find some of my work so far!",
+  skills: ["C++", "Python", "Unreal Engine", "Jenkins", "AWS", "Docker", "Perforce", "Git", "Sentry", "JSON", "Godot"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -35,7 +35,30 @@ export const siteConfig = {
       skills: ["React", "Node.js", "AWS"],
     },
   ],
+  work: [
+    {
+      title: "Sample Work 1",
+      description: "Description for work item 1. Click to view more.",
+      page: "/work/sample-work-1"
+    },
+    {
+      title: "Sample Work 2",
+      description: "Description for work item 2. Click to view more.",
+      page: "/work/sample-work-2"
+    }
+  ],
   experience: [
+    {
+      company: "Verdant Games",
+      title: "Junior DevOps Engineer",
+      dateRange: "Jul 2025 - Present",
+      bullets: [
+        "Continued to maintain and improve CI/CD pipelines",
+        "Expanded automation and monitoring tools for production infrastructure",
+        "Collaborated with development teams to streamline deployment workflows",
+        "Built on work from internship, taking on more responsibility in DevOps and infrastructure management"
+      ],
+    },
     {
       company: "Verdant Games",
       title: "DevOps/Infrastructure/Tools Engineer Intern",
@@ -53,12 +76,12 @@ export const siteConfig = {
       degree: "Bachelor of Creative Media and Game Technologies",
       dateRange: "2019 - 2025",
       achievements: [
-        "Year 2 GOTY (https://buas.itch.io/vana)"
+        { text: "Year 2 GOTY", url: "https://buas.itch.io/vana" }
       ],
     },
     {
-      school: "Gilde Opleidingen",
-      degree: "Secondary vocational education in Application and Media development",
+      school: "Gilde Opleidingen Roermond",
+      degree: "Secondary vocational education (MBO) in Application and Media development",
       dateRange: "2015 - 2019",
       achievements: [
       ],
