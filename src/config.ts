@@ -80,6 +80,8 @@ export const siteConfig = {
       school: "Gilde Opleidingen",
       degree: "Secondary vocational education in Application and Media development",
       dateRange: "2015 - 2019",
+      achievements: [
+      ],
     },
   ],
 };
