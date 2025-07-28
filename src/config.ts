@@ -69,24 +69,17 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Breda University of Applied Sciences",
+      degree: "Bachelor of Creative Media and Game Technologies",
+      dateRange: "2019 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Year 2 GOTY"
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      school: "Gilde Opleidingen",
+      degree: "Secondary vocational education in Application and Media development",
+      dateRange: "2015 - 2019",
     },
   ],
 };
